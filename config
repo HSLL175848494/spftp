@@ -1,0 +1,28 @@
+#IP address——————Required parameter
+ip:
+$192.168.6.132
+
+#Starting directory——————Required parameter
+dir:
+$/home/liu/桌面/spftp/
+
+#Port, default 4567
+port:
+$4567
+
+#Enable OPTS UTF8 Commond(true or false)
+utf-8:
+$true
+
+#Read/write timeout (seconds) Upload and download block timeout; considered timed out if no data arrives within a certain time
+rwtimeout:
+$2
+
+#Allow anonymous(true or false),default false
+anonymous:
+$false
+
+#User list (username password)
+users:
+$root 123456
+$hsll 123456
